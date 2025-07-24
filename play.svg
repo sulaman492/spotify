@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" style="cursor: pointer;">
+  <style>
+    .circle {
+      fill: #1DB954;
+      transition: fill 0.2s ease-in-out;
+    }
+    .triangle {
+      fill: white;
+    }
+    svg:hover .circle {
+      fill: #1ed760;
+    }
+  </style>
+  <circle class="circle" cx="12" cy="12" r="12"></circle>
+  <polygon class="triangle" points="9,7 17,12 9,17"></polygon>
+</svg>
