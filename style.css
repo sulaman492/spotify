@@ -146,9 +146,51 @@ button > *{
     font-size: 17px;
 }
 .playbar{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     padding: 12px;
-    width: 100%;
-    background-color: #1fdf64;
+    width: 92%;
+    background-color: #ffffff;
+}
+.songbuttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.songsList ul{
+    padding: 0px 12px;
+}
+.songsList ul li{
+    /* list-style: none; */
+    list-style-type: decimal;
+    display: flex;
+    justify-content: space-between;
+    gap: 13px;
+    cursor: pointer;
+    padding: 12px 0px;
+    border: 1px solid white;
+    margin: 12px 0px;
+    padding: 13px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.songsList{
+    height: 544px;
+    overflow: auto;
+    margin-bottom: 44px;
+}
+.songsList .info{
+    font-size: 13px;
+    width: 344px;
+}
+.playNow{
+    display: flex;
+    /* width: 100; */
+    justify-content: center;
+    align-items: center;
+}
+.playNow span{
+    width: 64px;
+    font-size: 15px;
+    /* padding: 12px; */
 }

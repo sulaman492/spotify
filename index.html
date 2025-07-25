@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>'Spotify - Web Player: Music for everyone'</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
 </head>
@@ -25,6 +25,20 @@
                 <div class="heading">
                     <img class="invert" src="playlist.svg" alt="playlist">
                     <h2>Your library</h2>
+                </div>
+                <div class="songsList">
+                    <ul>
+                        <li><img class="invert" src="music.svg" alt="">
+                        <div class="info">
+                            <div>Song Name</div>
+                            <div>Song Artist</div>
+                        </div>
+                        <div class="playNow">
+                            <span>Play</span>
+                            <img class="invert" src="playcircle.svg" alt="">
+                        </div>
+                        </li>
+                    </ul>
                 </div>
                 <div class="footer">
                     <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
@@ -85,10 +99,15 @@
                 </div>
             </div>
             <div class="playbar">
-                playbar
+                <div class="songbuttons">
+                    <img src="prevsong.svg" alt="">
+                    <img src="play2.svg" alt="">
+                    <img src="nextsong.svg" alt="">
+                </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
